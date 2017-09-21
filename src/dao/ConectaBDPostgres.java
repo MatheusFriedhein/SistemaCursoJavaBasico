@@ -13,11 +13,11 @@ public class ConectaBDPostgres {
 		
         Connection conexao = null;
         try {
-                Class.forName("org.postgresql.Driver");
-                //String url ="jdbc:postgresql://localhost:5432/db_cursoJava";
-                String url ="jdbc:postgresql://192.168.90.103:5432/AgendaMotoristasCripto";
-                String user="postgres";
-                String password = "oimatheus";
+                
+		
+		
+		
+		
                 conexao = DriverManager.getConnection(url, user, password);
         } catch (SQLException e) { e.printStackTrace(); }
         return conexao;
